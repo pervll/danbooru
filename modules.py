@@ -8,7 +8,7 @@ def set_rank(a_dict):
 
 d = {}
 file = open("rank.txt", "r")
-out = open("ranked.md", "a")
+out = open("final/keqing.md", "a")
 for s in file.readlines():
     id = s.split(":")[0]
     score = int(s.split(":")[1])
